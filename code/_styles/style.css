@@ -22,6 +22,11 @@
     font-weight: 700;
 }
 
+body{
+    background-image: url(../_images/capa.png);
+    background-attachment: fixed;
+}
+
 #header{
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -34,7 +39,6 @@
 .nav-link{
     color: var(--color-primary-text);
     font-size: 1em;
-    margin-left: 30px;
     text-transform: uppercase;
     letter-spacing: .06em;
     text-align: center;
@@ -48,5 +52,30 @@
 
 .btn-principal{
     border-radius: 50px;
-    border: 1px solid var(--color-secondary-light);
+    background-color: var(--color-primary-text);
+    color:  rgba(0, 0, 0, 0.6);
+    width: 120px;
+}
+
+.btn-principal:hover{
+    color:  rgba(0, 0, 0, 0.6);
+}
+
+.left-divisory{
+    border-left: 1px solid var(--color-primary-text);
+}
+
+.btn-menu{
+    border: 2px solid var(--color-primary-text);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-menu:focus{
+    box-shadow: none;
+}
+
+.icon-menu{
+    font-size: 24px;
+    color: var(--color-primary-text);
 }
