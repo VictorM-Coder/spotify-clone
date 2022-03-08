@@ -26,8 +26,28 @@ html, body, #home{
     height: 100%;
 } 
 
+.title-1{
+    font-size: 120px;
+    font-weight: 900;
+    color: var(--color-primary-text);
+}
+
+.body-text{
+    font-size: 18px;
+}
+
+@media (max-width:  768px){
+	.title-1{
+        font-size: 64px;
+    }
+}
+
+.primary-text-color{
+    color: var(--color-primary-text);
+}
+
 body{
-    background-image: url(../_images/capa.png);
+    background-image: url(../_images/capa.png), linear-gradient(225deg, rgba(125, 37, 248, 0.8), rgba(181, 90, 255, 0.8)) ;
     background-attachment: fixed;
 }
 
@@ -50,19 +70,25 @@ body{
 
 .nav-link:hover{
     color: var(--color-primary-text);
-    transform: scale(1.04);
     text-align: center;
+}
+
+.scale-hover:hover{
+    transform: scale(1.04);
 }
 
 .btn-principal{
     border-radius: 50px;
-    background-color: var(--color-primary-text);
-    color:  rgba(0, 0, 0, 0.6);
-    width: 120px;
+    font-size: 18px;
+    border: none;
+    font-weight: 700;
+    padding: 8px 16px;
+    background-color: var(--color-primary);
+    color:  var(--color-primary-text)
 }
 
 .btn-principal:hover{
-    color:  rgba(0, 0, 0, 0.6);
+    
 }
 
 .left-divisory{
