@@ -22,6 +22,14 @@
     font-weight: 700;
 }
 
+.color-primary{
+    color: var(--color-primary);
+}
+
+.color-secondary{
+    color: var(--color-secondary);
+}
+
 html, body, #home{
     height: 100%;
 } 
@@ -29,17 +37,14 @@ html, body, #home{
 .title-1{
     font-size: 120px;
     font-weight: 900;
-    color: var(--color-primary-text);
 }
 
-.title-1-secondary{
-    color: var(--color-primary);
+.title-1-secondary{  
     font-size: 48px;
     font-weight: 700;
 }
 
 .title-2{
-    color: var(--color-primary);
     font-size: 34px;
     font-weight: 700;
 }
@@ -60,6 +65,10 @@ html, body, #home{
 
 .bg-white{
     background-color: var(--color-primary-text);
+}
+
+.bg-primary{
+    background-color: var(--color-primary);
 }
 
 body{
@@ -124,8 +133,4 @@ body{
 .icon-menu{
     font-size: 24px;
     color: var(--color-primary-text);
-}
-
-.bg-primary{
-    background-color: var(--color-primary);
 }
