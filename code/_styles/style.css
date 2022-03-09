@@ -32,6 +32,18 @@ html, body, #home{
     color: var(--color-primary-text);
 }
 
+.title-1-secondary{
+    color: var(--color-primary);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.title-2{
+    color: var(--color-primary);
+    font-size: 34px;
+    font-weight: 700;
+}
+
 .body-text{
     font-size: 18px;
 }
