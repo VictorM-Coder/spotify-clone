@@ -49,6 +49,12 @@ html, body, #home{
     font-weight: 700;
 }
 
+.title-4{
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 .body-text{
     font-size: 18px;
 }
@@ -96,6 +102,19 @@ body{
 .nav-link:hover{
     color: var(--color-primary-text);
     text-align: center;
+}
+
+.nav-ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.nav-link-footer{
+    text-decoration: none;
+}
+
+.nav-link-footer:hover{
+    color: var(--color-primary);
 }
 
 .scale-hover:hover{
